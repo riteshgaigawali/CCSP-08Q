@@ -1,17 +1,16 @@
 class Constructor12{
+int a;
 
 Constructor12(){
-this(10);
-System.out.println("Inside 0 args constructor.");
+System.out.println("Inside 0 args constructor. "+a);
+a = 10;
 }
-
-Constructor12(int a){
-System.out.println("Inside 1 args constructor. " + a);
+void m1(){
+System.out.println("Inside m1 method. "+a);
 }
-
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
-Constructor12 ref = new Constructor12();
+new Constructor12().m1();
 System.out.println("Stop @Cyber Success");
 }
 
