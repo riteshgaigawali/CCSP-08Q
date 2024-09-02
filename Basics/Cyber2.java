@@ -1,3 +1,7 @@
+/*
+In a Java program we cannot have more than one public class in one .java file.
+*/
+
 public class Cyber2{
 
 public static void main(String args[]){

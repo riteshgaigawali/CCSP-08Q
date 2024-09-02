@@ -1,4 +1,6 @@
-class Demo5{
+/*Assigment question on print() and println() statements.*/
+
+class AssignmentQuestion1{
 
 
 public static void main(String args[]){
