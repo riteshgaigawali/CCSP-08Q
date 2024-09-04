@@ -8,7 +8,7 @@ void m1(int a){
 System.out.println("Inside 1 args m1 method. - Child "+a);
 }
 }
-class OverloadingEx9{
+class PolymorphismEx09{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 

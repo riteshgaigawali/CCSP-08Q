@@ -15,7 +15,7 @@ System.out.println("Inside m1 method - return Success - Child");
 return new Success();
 }
 }
-class OverridingEx5{
+class PolymorphismEx14{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 Child c = new Child();

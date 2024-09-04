@@ -8,7 +8,7 @@ void m2(){
 System.out.println("Inside m2 method.");
 }
 }
-class OverridingEx10{
+class PolymorphismEx19{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 

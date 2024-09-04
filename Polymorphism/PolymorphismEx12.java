@@ -14,7 +14,7 @@ System.out.println("Inside m1 method which return 100.5 - Child");
 return 100.5f;
 }
 }
-class OverridingEx3{
+class PolymorphismEx12{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 Child c = new Child();

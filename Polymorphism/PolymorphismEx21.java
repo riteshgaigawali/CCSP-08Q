@@ -20,7 +20,7 @@ void m3(){
 System.out.println("Inside m3 method - Child "+c);
 }
 }
-class PolymorphismEx1{
+class PolymorphismEx21{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 

@@ -1,5 +1,6 @@
 /*
-- As in following Example the Upcasted 'p' object as well as Downcasted 'c' calls the same method homeKeys() which is inside Parent, if there is no same method present in Child class.
+- Under the concept of Overriding we cannot perform Upcasting and Downcasting.
+- As in following Example the Upcasted 'p' object as well as Downcasted 'c' calls the same method homeKeys() which is inside Child; So there is no use of Upcasting and Downcasting.
 */
 
 class Parent{
@@ -8,9 +9,11 @@ System.out.println("Home keys - Parent");
 }
 }
 class Child extends Parent{
-
+void homeKeys(){
+System.out.println("Home keys - Child");
 }
-class PolymorphismEx5{
+}
+class PolymorphismEx24{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 

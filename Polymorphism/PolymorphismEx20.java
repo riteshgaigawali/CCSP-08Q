@@ -12,7 +12,7 @@ void m1(int a){
 System.out.println("Inside m1 method - 1 args");
 }
 }
-class OverridingEx11{
+class PolymorphismEx20{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 

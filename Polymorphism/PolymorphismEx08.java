@@ -6,7 +6,7 @@ Hdfc(String companyName, String custName, int adharId){
 System.out.println("Thank you! , You company account with name "+companyName+" is created successfuly.");
 }
 }
-class OverloadingEx8{
+class PolymorphismEx08{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 Hdfc cust1 = new Hdfc("Ritesh",5285);

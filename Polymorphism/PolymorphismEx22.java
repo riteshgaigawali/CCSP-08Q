@@ -25,7 +25,7 @@ System.out.println("Inside test method.");
 gp.m1();
 }
 }
-class PolymorphismEx2{
+class PolymorphismEx22{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 

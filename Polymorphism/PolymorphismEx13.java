@@ -1,18 +1,19 @@
+class Cyber{}
 //Overriden class
 class Parent{
-int m1(){
-System.out.println("Inside m1 method which return 10. - Parent");
-return 10;
+Cyber m1(){
+System.out.println("Inside m1 method - return Cyber - Parent");
+return new Cyber();
 }
 }
 //Overriding class
 class Child extends Parent{
-int m1(){
-System.out.println("Inside m1 method which return 100. - Child");
-return 100;
+Cyber m1(){
+System.out.println("Inside m1 method - return Cyber - Child");
+return new Cyber();
 }
 }
-class OverridingEx2{
+class PolymorphismEx13{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 Child c = new Child();

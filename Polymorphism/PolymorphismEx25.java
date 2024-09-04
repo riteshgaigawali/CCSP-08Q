@@ -8,23 +8,21 @@ System.out.println("Home keys - Parent");
 }
 }
 class Child extends Parent{
-void job(){
-System.out.println("Job method - Child");
+
 }
-}
-class PolymorphismEx6{
+class PolymorphismEx25{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 
 //Upcasting
 Parent p = new Child();
-p.homeKeys(); //p.job(); --> Invalid
+p.homeKeys();
 
 System.out.println(" ---------------------------- ");
 
 //Downcasting
 Child c = (Child)p;
-c.homeKeys(); c.job();
+c.homeKeys(); c.homeKeys();
 
 System.out.println("Stop @Cyber Success");
 }

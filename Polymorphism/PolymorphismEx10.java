@@ -4,11 +4,11 @@ System.out.println("Inside m1 method. - Parent");
 }
 }
 class Child extends Parent{
-final void m1(){
+void m1(){
 System.out.println("Inside m1 method. - Child");
 }
 }
-class OverridingEx7{
+class PolymorphismEx10{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 Child c = new Child();

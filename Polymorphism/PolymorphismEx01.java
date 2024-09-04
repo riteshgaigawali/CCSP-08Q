@@ -1,4 +1,4 @@
-class OverloadingEx1{
+class PolymorphismEx01{
 void m1(){
 System.out.println("Inside 0 args m1 method.");
 }

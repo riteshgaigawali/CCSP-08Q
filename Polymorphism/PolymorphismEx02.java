@@ -12,7 +12,7 @@ void payment(char netBanking){
 System.out.println("Payment through netBanking. "+netBanking);
 }
 }
-class OverloadingEx2{
+class PolymorphismEx02{
 	public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 Swiggy cust1 = new Swiggy();

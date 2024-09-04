@@ -1,5 +1,5 @@
 class Parent{
-void m1(){
+final void m1(){
 System.out.println("Inside m1 method. - Parent");
 }
 }
@@ -8,7 +8,7 @@ void m1(){
 System.out.println("Inside m1 method. - Child");
 }
 }
-class OverridingEx1{
+class PolymorphismEx15{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 Child c = new Child();

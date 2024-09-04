@@ -5,7 +5,7 @@ int a = 100;
 class Child extends Parent{
 float b = 200.5f;
 }
-class OverridingEx8{
+class PolymorphismEx17{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 

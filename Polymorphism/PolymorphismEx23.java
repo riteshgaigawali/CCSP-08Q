@@ -12,7 +12,7 @@ void bikeKeys(){
 System.out.println("Bike Keys - Child");
 }
 }
-class PolymorphismEx3{
+class PolymorphismEx23{
 public static void main(String args[]){
 System.out.println("Start @Cyber Success");
 
