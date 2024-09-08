@@ -23,7 +23,6 @@ class AbstractionEx05{
 		
 		Parent p = new Child();
 		p.m1();
-		p.m2();
 		
 		System.out.println("Stop @Cyber Success");
 	}
