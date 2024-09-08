@@ -3,9 +3,9 @@
 - In Byte variable we cannot store decimal values, characters, or boolean values.
 */
 
-class Byte1{
-public static void main(String args[]){
-byte var1=10;
-System.out.print(var1);
-}
+class DataTypesEx01 {
+    public static void main(String args[]) {
+        byte var1 = 10;
+        System.out.print(var1);
+    }
 }

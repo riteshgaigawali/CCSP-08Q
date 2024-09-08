@@ -10,14 +10,14 @@
 - Comments are used by developers to inform other developers, the use of code or statement within the program. They are never part of compilation or execution.
 */
 
-class Byte2{
-public static void main(String args[]){
-byte var1 =10;
-byte var2;
-var2 = 20;
-byte var3 = 30; // This line will generate a CTE as the variable name can't be same in Java.
-System.out.println(var1);
-System.out.print(var2);
+class DataTypesEx02 {
+    public static void main(String args[]) {
+        byte var1 = 10;
+        byte var2;
+        var2 = 20;
+        byte var3 = 30; // This line will generate a CTE as the variable name can't be same in Java.
+        System.out.println(var1);
+        System.out.print(var2);
 
-}
+    }
 }
