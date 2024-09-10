@@ -1,10 +1,12 @@
 //Multiple Inheritance ---> Not supported by Java
-class Parent1{
+class Parent1 {
 
 }
-class Parent2{
+
+class Parent2 {
 
 }
+
 class Child1 extends Parent1, Parent2{
 
 }
