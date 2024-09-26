@@ -1,6 +1,6 @@
 /*
 - In the checked exception we can  either handle an exception or we can deligate an exception.
-- But when it comes to uncheked exceptions it can only be handle using try-catch block but cannot be deligated using throws keyword.
+- But when it comes to uncheked exceptions it can only be handle using try-catch block but cannot be deligated using throws keyword.	
 - The program will not throw an error if you use throws keyword for uncheked exceptions, but it will not deligate the exception for uncheked type of exceptions.
 
 - To handle checked exceptions what are the approaches ?
@@ -9,7 +9,7 @@
 - To handle uncheked exceptions what are the approaches ?
 >> To handle uncheked exceptions there is only one way to use try-catch block.
 
-- Exceptions can either raised at compilation-time or at runtime but can be handled only at runtime.
+- Exceptions can either raised at compilation-time or at runtime but can be handled only at runtime.00
 
 */
 class ExceptionHandlingEx32{
