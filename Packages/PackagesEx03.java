@@ -1,5 +1,6 @@
 /*
-- We cannot create two packages within a same Java program.
+- A single Java program can contain only single package keyword;
+- A single Java program cannot contain more than one package statement.
 */
 package training;
 

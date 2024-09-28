@@ -1,5 +1,5 @@
 /*
-- We can create sub-packages in a same Java program.
+- Not only we can create packages but also we can create sub-packages in a Java program.
 
 - To compile and execute following program we can use commands as follows :
 
