@@ -42,3 +42,10 @@ class Example02{
 		System.out.println("\nStop @Cyber Success");
 	}
 }
+
+// public java.io.FileReader(java.lang.String) throws java.io.FileNotFoundException;
+// public int read() throws java.io.IOException; <-- java.io.InputStreamReader
+// public void close() throws java.io.IOException; <-- java.io.InputStreamReader
+// public java.io.FileWriter(java.lang.String) throws java.io.IOException;
+// public void write(int) throws java.io.IOException;
+// public void close() throws java.io.IOException;

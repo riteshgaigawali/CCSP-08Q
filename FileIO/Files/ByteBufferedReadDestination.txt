@@ -1,0 +1,1 @@
+This is an example of Byte-oriented BufferedInputStream from the concept of FileIO operations.
