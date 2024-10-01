@@ -1,0 +1,1 @@
+This is an example on Character-oriented Stream Channel from the concept of FileIO.
