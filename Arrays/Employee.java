@@ -1,5 +1,5 @@
 /*
-- Check example 8.
+- Check example 8 & 19.
 */
 class Employee{
 	int empId;
