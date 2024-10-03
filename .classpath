@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Abstraction"/>
+	<classpathentry kind="src" path="Arrays"/>
+	<classpathentry kind="src" path="Basics"/>
+	<classpathentry kind="src" path="Collections/src"/>
+	<classpathentry kind="src" path="Encapsulation"/>
+	<classpathentry kind="src" path="ExceptionHandling"/>
+	<classpathentry kind="src" path="FileIO"/>
+	<classpathentry kind="src" path="Inheritance"/>
+	<classpathentry kind="src" path="InnerClasses"/>
+	<classpathentry kind="src" path="Polymorphism"/>
+	<classpathentry kind="src" path="Strings"/>
+	<classpathentry kind="src" path="WrapperClasses"/>
+	<classpathentry kind="output" path="Collections/bin"/>
+</classpath>
