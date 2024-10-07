@@ -1,12 +1,18 @@
 /*
-  - Write a Java program to demonstrate the extraction of data using Cursors.
+     #2. Iterator Cursor(C) v1.2 :
+     
+     	- Iterator cursor is applicable to majority of the collections hence it can be called as an Universal Cursor.
+     	- This iterator can not only perform read operation but can also perform remove operation.
+     	- This iterator can perform read and remove operation in forward direction only.
 */
+
+
 package collections.listclasses;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class ArrayListEx14 {
+public class IteratorEx {
 
 	public static void main(String[] args) {
 		System.out.println("Start @Cyber Success");
