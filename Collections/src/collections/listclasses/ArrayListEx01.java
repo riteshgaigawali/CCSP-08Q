@@ -24,9 +24,9 @@
  						       | [implements]
  		-----------------------------------------------
         |                      |                      |
-  ArrayList(C) v1.2      LinkedList(C) v1.2       Vector(C) v1.2
+  ArrayList(C) v1.2      LinkedList(C) v1.2       Vector(C) v1.0
                                                       |
-                                                   Stack(C) v1.2
+                                                   Stack(C) v1.0
                                                    
  - In Collections we can store not only one particular type of data but we can also store multiple type of data(homogeneous & heterogeneous).
  - If this is possible in one type of Collection(i.e ArrayList) then, What is the need of having multiple Collection classes ?
@@ -43,7 +43,7 @@
  		7) Based on Data Structure.
  		8) Based on Cursor.
  		
-   #1. ArrayList :
+   #1. ArrayList(C) v1.2 :
    
    	- ArrayLists were introduced in v1.2.
    	- It store both homogeneous and heterogeneous type of data.
@@ -52,6 +52,7 @@
    	- Insertion order is maintained in ArrayList.
    	- Methods of ArrayList are unsynchronized.
    	- Data structure is dynamic in nature, i.e the size of ArrayList is dynamic.
+   	- Iterator and ListIterator Cursors are applicable.
    	
  
 */
