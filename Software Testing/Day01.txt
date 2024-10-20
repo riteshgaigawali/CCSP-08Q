@@ -1,0 +1,21 @@
+# Testing :-
+
+	1 oct ----------------------- 5 oct ------------------------ 8 oct ---------------------------- 9 oct
+	[Testing 		|		   [Completed]  				[Regression Testing]          |        [Completed] 
+	Started]		|																	  |
+			(Test Currently Developed											(Previously Developed Features)				
+			Features )																  |		   
+					|																	  |					
+					|																UI Automation Testing(Selenium)				
+				Feature Testing														(UI Testing) / Regression Testing
+
+# Selenium Evolution :-
+
+	1) Selenium IDE (v1.0)
+	2) Selenium RC (Remote Controll) (v2.0)
+	3) Selenium WebDriver (v3.0)
+	
+
+**Assignment :-
+
+- Revise : Inheritence, Abstraction, Interfaces. 
