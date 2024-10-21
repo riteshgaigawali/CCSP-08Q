@@ -1,21 +1,35 @@
-# Testing :-
+Here’s a refactored version of your text with proper spacing and structure for clarity:
 
-	1 oct ----------------------- 5 oct ------------------------ 8 oct ---------------------------- 9 oct
-	[Testing 		|		   [Completed]  				[Regression Testing]          |        [Completed] 
-	Started]		|																	  |
-			(Test Currently Developed											(Previously Developed Features)				
-			Features )																  |		   
-					|																	  |					
-					|																UI Automation Testing(Selenium)				
-				Feature Testing														(UI Testing) / Regression Testing
+---
 
-# Selenium Evolution :-
+### **Testing Schedule:**
 
-	1) Selenium IDE (v1.0)
-	2) Selenium RC (Remote Controll) (v2.0)
-	3) Selenium WebDriver (v3.0)
-	
+```
+1 Oct                      5 Oct                         8 Oct                      9 Oct
+[Testing Started]    [Completed]              [Regression Testing]      [Completed] 
 
-**Assignment :-
+   |                         |                          |                            |
+ (Test Currently         (Feature Testing)     (Previously Developed       UI Automation Testing 
+ Developed Features)                               Features)                     (Selenium)
+                                                                                          |
+                                                                               (UI Testing/Regression Testing)
+```
 
-- Revise : Inheritence, Abstraction, Interfaces. 
+---
+
+### **Selenium Evolution:**
+
+1. **Selenium IDE (v1.0)**
+2. **Selenium RC (Remote Control) (v2.0)**
+3. **Selenium WebDriver (v3.0)**
+
+---
+
+### **Assignment:**
+
+- Revise the following topics:
+  - Inheritance
+  - Abstraction
+  - Interfaces
+
+---
