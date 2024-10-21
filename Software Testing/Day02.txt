@@ -1,0 +1,27 @@
+# What is Selenium ?
+>>	- It is a free open source automated testing suite, generally used for web apps.
+	- It also supports different browesers and platforms, it is quite similar to HP Quick Test Pro[QTP]. 
+
+# What are Selenium Components ?
+>> 
+	1) Selenium IDE(v1.0) :
+		- It is the simplest framework desingned in selenium suit and essiest to learn.
+		- It is a Firefox plugin that we can install eassily from the web store.
+		- It is a record and playback tool which has a disadvantage of not having consistent result while execution, hence we need to use Selenium RC(Remote Control)/ WebDriver for web automation.
+		
+	2) Selenium RC(Remote Control) (v2.0) :
+		- It is testing framework of selenium project mostly used for automating web-applications.
+		- It is a first web automation tool which allows users to use different programming languages such as Java, Python, Ruby, .NET, PHP, C#, etc.
+		- Selenium RC has a strong dependancy on a stand-alone server which is why if anyone wants to automate web-apps through selenium RC, these stand-alone server should be installed.
+		- It means Selenium RC has a strong dependancy on stand-alone server which is overcomed in next selenium version. i.e. Selenium WebDriver.
+	
+	3) Selenium WebDriver (v3.0) :
+		- It is the first stable selenium version which is a combination of Selenium RC and WebDriver.
+		- This also supports different programming languages similar to Selenium RC.
+		- The WebDriver is also supported to different platforms and browesers.
+	
+	4) Selenium Grid (v4.0) :
+		- Selenium Grid is a tool which is used together with Selenium RC and WebDriver to run automation tests parallaly accross different machines and browesers at the same time.
+		- To use Selenium Grid we need to connect multiple machines in a network (i.e. LAN).
+		
+	
