@@ -1,23 +1,18 @@
-Here’s a refactored version of your text with proper spacing and structure for clarity:
+# Testing Timeline
+
+| Date      | Task                       | Description                                                     | Status     |
+|-----------|----------------------------|-----------------------------------------------------------------|------------|
+| 1 Oct     | Testing Started            | Test currently developed features.                              | In Progress|
+| 5 Oct     | Testing Completed          | Completed feature testing.                                      | Completed  |
+| 8 Oct     | Regression Testing Started | Testing previously developed features (UI Automation: Selenium). | In Progress|
+| 9 Oct     | Regression Testing Completed| Completed UI Testing / Regression Testing.                      | Completed  |
+
+- **Feature Testing** focuses on individual functionalities.
+- **UI Automation Testing** is performed using Selenium (for UI regression).
 
 ---
 
-### **Testing Schedule:**
-
-```
-1 Oct                      5 Oct                         8 Oct                      9 Oct
-[Testing Started]    [Completed]              [Regression Testing]      [Completed] 
-
-   |                         |                          |                            |
- (Test Currently         (Feature Testing)     (Previously Developed       UI Automation Testing 
- Developed Features)                               Features)                     (Selenium)
-                                                                                          |
-                                                                               (UI Testing/Regression Testing)
-```
-
----
-
-### **Selenium Evolution:**
+# Selenium Evolution
 
 1. **Selenium IDE (v1.0)**
 2. **Selenium RC (Remote Control) (v2.0)**
@@ -25,11 +20,10 @@ Here’s a refactored version of your text with proper spacing and structure for
 
 ---
 
-### **Assignment:**
+# Assignment
 
-- Revise the following topics:
-  - Inheritance
-  - Abstraction
-  - Interfaces
+Revise the following topics in Java:
 
----
+- Inheritance
+- Abstraction
+- Interfaces
