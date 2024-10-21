@@ -4,8 +4,8 @@
 |-----------|----------------------------|-----------------------------------------------------------------|------------|
 | 1 Oct     | Testing Started            | Test currently developed features.                              | In Progress|
 | 5 Oct     | Testing Completed          | Completed feature testing.                                      | Completed  |
-| 8 Oct     | Regression Testing Started | Testing previously developed features (UI Automation: Selenium). | In Progress|
-| 9 Oct     | Regression Testing Completed| Completed UI Testing / Regression Testing.                      | Completed  |
+| 8 Oct     | Regression Testing Started | Testing previously developed features (UI Automation: Selenium).| In Progress|
+| 9 Oct     | Regression Testing Completed| Completed UI Testing / Regression Testing.                     | Completed  |
 
 - **Feature Testing** focuses on individual functionalities.
 - **UI Automation Testing** is performed using Selenium (for UI regression).

@@ -1,3 +1,55 @@
-#Selenium Architechture :
 
-	
+```markdown
+# Selenium Architecture
+
+```
+                                    [root of selenium library]
+      SearchContext(I) {abstract WebElement(I) findElement() & abstract List<WebElement> findElements()} 
+                                              |
+                                              |
+                              WebDriver(I) {get(), navigate(), quit(), etc.}
+                                              |
+                                              |
+      JavaScriptExecutor(I) | ---- RemoteWebDriver(C) [fully implemented class] ---- | TakeScreenshot(I)              
+                                              |
+                                              |
+    -----------------------------------------------------------------------------------------------------                                            
+    |                                             |                                      |               |
+ChromeDriver(C)                             FirefoxDriver(C)                         EdgeDriver(C)       Etc...
+                                              |
+                                [Browser Specific Classes]
+```
+
+---
+
+### 1) **SearchContext (I)**:
+- It is the topmost interface in the architecture, which has two abstract methods: `findElement()` and `findElements()`.
+- The `findElement()` method returns a `WebElement(I)` object, while `findElements()` returns a `List<WebElement>`.
+- `WebElement` is an interface in the Selenium library that contains abstract methods such as:
+  - `sendKeys()`
+  - `click()`
+  - `clear()`
+  - `submit()`
+
+### 2) **WebDriver (I)**:
+- It is an interface that extends the `SearchContext` interface.
+- `WebDriver` contains abstract methods such as:
+  - `get()`
+  - `close()`
+  - `quit()`
+  - `getWindowHandles()`
+
+### 3) **RemoteWebDriver (C)**:
+- It is a fully implemented class that implements the `WebDriver`, `TakeScreenshot`, and `JavaScriptExecutor` interfaces.
+- Since it implements all abstract methods from its parent interfaces, it is called a fully-implemented class.
+- The `RemoteWebDriver` class requires a Selenium stand-alone server for execution on remote machine browsers.
+
+### 4) **Browser-Specific Classes**:
+- These include browser-specific classes such as `ChromeDriver`, `FirefoxDriver`, `EdgeDriver`, etc.
+- To create an instance of a browser-specific class, use the reference of the `WebDriver` interface to enhance flexibility:
+  ```java
+  WebDriver driver = new ChromeDriver();
+  ```
+- This creates an instance of the `ChromeDriver` class using the `WebDriver` interface reference.
+- Using this object, methods of the `WebDriver` interface (implemented in `RemoteWebDriver`) can be accessed, a process known as **upcasting**.
+```
