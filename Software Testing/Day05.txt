@@ -1,0 +1,47 @@
+# Find Element by Text in Selenium using text() and contains() Methods
+
+1. **text() Method**:
+   - The `text()` method is a built-in method in Selenium WebDriver used with the XPath locator to locate an element based on its exact text value.
+   - **Syntax**: `//tagname[text() = 'value']`
+   - **Example**:
+     ```html
+     <html>
+       <div id="12345">
+         <input name="username"/> 
+         <input class="password"/> 
+         <div alt="1234"/> 
+         <div id="login"/> 
+       </div>
+       <div>
+         <div>
+           <a href="http://forgetpassword.com/"/>
+           <span> Forget Password </span> <!-- {XPath: //span[text()="Forget Password"]} -->
+         </div>
+       </div>
+     </html>
+     ```
+
+2. **contains() Method**:
+   - The `contains()` method is another built-in method used to locate an element based on a partial text match.
+   - **Syntax**: 
+     - `//tagname[contains(@attribute, 'value')]`
+     - `//tagname[contains(text(), 'value')]`
+   - **Example**:
+     ```html
+     <html>
+       <div id="12345">
+         <input name="username"/> 
+         <input class="password"/> 
+         <div alt="1234"/> 
+         <div id="login"/> <!-- {XPath: //div[contains(@id, 'login')]} -->
+       </div>
+       <div>
+         <div>
+           <a href="http://forgetpassword.com/"/>
+           <span> Forget Password </span> <!-- {XPath: //span[contains(text(), 'Forget Password')]} -->
+         </div>
+       </div>
+     </html>
+     ```
+
+---
