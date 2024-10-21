@@ -1,0 +1,80 @@
+# Locators
+
+Selenium locators are ways to identify elements on a web page, typically used as arguments in the `findElement()` method. There are eight types of locators in Selenium as follows:
+
+1. **Id**:
+   - An attribute in HTML tags with a unique value associated with it.
+   - **Syntax**: `<tagname id="value"> [content between this tag] </tagname>`
+   - **Example**: `<div id="login"> LOGIN </div>`
+   - Here, `id` is an attribute with the value `login`.
+
+2. **Name**:
+   - Similar to the Id locator, it contains a value that can be used to locate web elements.
+   - **Syntax**: `<tagname name="value"> [content between this tag] </tagname>`
+   - **Example**: `<input name="username"/>`
+   - In this tag, `name` is an attribute with the value `username`.
+
+3. **ClassName**:
+   - An attribute/locator used in HTML tags, which may not have a unique value across the HTML.
+   - **Syntax**: `<tagname class="value"> [content between this tag] </tagname>`
+   - **Example**: `<input class="password"/>`
+   - If the value of `class` is not unique, it is advisable to use different locators, as Selenium may get confused when trying to locate elements with duplicate values.
+
+4. **LinkText**:
+   - Applicable only to hyperlink texts.
+   - **Syntax**: `<tagname href="http://www.example.com/"> Link Text </tagname>`
+   - **Example**: `<a href="http://www.google.com/"> Google </a>`
+   - In this case, `a` is the tag and `href` is an attribute that contains a link associated with the text.
+
+5. **Partial LinkText**:
+   - Similar to LinkText, but it allows using a part of the text instead of the complete text.
+   - **Example**: `<a href="http://www.google.com/"> Google Search </a>`
+   - Here, you can locate the element using text as "Google".
+
+6. **XPath**:
+   - An expression used to locate web elements using HTML components. There are two types of XPath in Selenium:
+   
+   **1) Absolute XPath**:
+   - A direct way to reach an element from the root node.
+   - **Disadvantage**: If the developer changes the HTML structure, this XPath may fail.
+   - **Example**:
+     ```html
+     <html>
+       <div id="12345">
+         <input name="username"/>
+         <input class="password"/>
+         <div alt="1234"/> <!-- {absolute XPath: html/div[1]} -->
+         <div id="login"/>
+       </div>
+       <div>
+         <div>
+           <a href="http://forgetpassword.com/"/>
+           <span> Forget Password </span> <!-- {absolute XPath: html/div[2]/div/span} -->
+         </div>
+       </div>
+     </html>
+     ```
+
+   **2) Relative XPath**:
+   - The most efficient way to locate web elements using different attributes.
+   - **Syntax**: `//tagname[@attribute="value"]`
+   - Allows jumping to the context node of an HTML element that matches the expression.
+   - **Example**:
+     ```html
+     <html>
+       <div id="12345">
+         <input name="username"/> <!-- {relative XPath: //input[@name="username"]} -->
+         <input class="password"/>
+         <div alt="1234"/> <!-- {relative XPath: //div[@alt="1234"]} -->
+         <div id="login"/> <!-- {relative XPath: //div[@id="login"]} -->
+       </div>
+       <div>
+         <div>
+           <a href="http://forgetpassword.com/"/>
+           <span> Forget Password </span>
+         </div>
+       </div>
+     </html>
+     ```
+
+---
