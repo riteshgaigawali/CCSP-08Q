@@ -78,3 +78,6 @@ Selenium locators are ways to identify elements on a web page, typically used as
      ```
 
 ---
+
+# Assignment questions :
+	//TODO : Find 15 examples for each of the above.

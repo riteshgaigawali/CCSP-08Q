@@ -1,0 +1,39 @@
+# Can We Use Index with XPaths?
+
+- **No**, but if we enclose the XPath in brackets `( )`, we can use an index with XPath.
+- **Syntax**: `(//tagname[text()="value"])[index]`
+- **Example**: `(//span[text()="Order Now"])[1]`
+
+---
+
+# Operators in XPath
+
+1. **AND Operator**:
+   - **Syntax**: `//tagname[@attribute="value" and @attribute="value"]`
+   - **Examples**:
+     - `//label[@for="src" and text()="Form"]`
+     - `//div[@id="homev2-root" and @class="default-height"]`
+
+2. **OR Operator**:
+   - **Syntax**: `//tagname[@attribute="value" or @attribute="value"]`
+   - **Examples**:
+     - `//label[@for="src" or text()="Form"]`
+     - `//div[@id="homev2-root" or @class="default-height"]`
+
+---
+
+# XPath Axes
+
+1. **Parent Axis**:
+   - This axis is mainly used to locate the parent tag with the reference of a child tag.
+   - **Syntax**: `//tagname[@attribute="value"]/parent::tagname`
+   - **Examples**:
+     - `//div[@class="afterwrap"]/parent::div`
+     - `//img[@title="redBus"]/parent::*`
+     - `//div[text()="Government Buses"]/parent::div`
+
+---
+
+# Assignment Questions
+
+- **TODO**: Find 15 XPath expressions for each of the above topics.
