@@ -31,7 +31,7 @@
      - `<input value="flipkart.com">` → `input[value="flipkart.com"]`
 
 ### 4. **CSS Selector using contains()**:
-   - **Syntax**: `tagname[attribute*="value"]`
+   - **Syntax**: `tagname[attribute*="value"]`	
    - **Example**: 
      - `<input value="flipkart.com">` → `input[value*=".com"]`
 
