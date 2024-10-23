@@ -1,0 +1,46 @@
+# XPath Functions
+
+### 1. **Starts-With Function**:
+   - Used when an attribute's ending value changes dynamically with each page load, but the first part remains constant.
+   - **Syntax**: `//tagname[starts-with(@attribute, "value")]`
+   - **Example**: 
+     - `<div id="Menu123321">` → `//div[starts-with(@id, "Menu")]`
+     - `<span> More News </span>` → `//span[starts-with(text(), "More")]`
+
+### 2. **Ends-With Function**:
+   - Locates web elements where the attribute or text value ends with a specific word.
+   - **Syntax**: `//tagname[ends-with(@attribute, "value")]`
+   - **Example**:
+     - `<span> More News </span>` → `//span[ends-with(text(), "News")]`
+
+# CSS Selectors
+
+### 1. **CSS Selector with ID**:
+   - **Syntax**: `tagname#idValue`
+   - **Example**: 
+     - `<div id="searchForm">` → `div#searchForm`
+
+### 2. **CSS Selector with Class**:
+   - **Syntax**: `tagname.classValue`
+   - **Example**: 
+     - `<div class="main">` → `div.main`
+
+### 3. **CSS Selector with Attribute**:
+   - **Syntax**: `tagname[attribute="value"]`
+   - **Example**: 
+     - `<input value="flipkart.com">` → `input[value="flipkart.com"]`
+
+### 4. **CSS Selector using contains()**:
+   - **Syntax**: `tagname[attribute*="value"]`
+   - **Example**: 
+     - `<input value="flipkart.com">` → `input[value*=".com"]`
+
+### 5. **CSS Selector using starts-with()**:
+   - **Syntax**: `tagname[attribute^="value"]`
+   - **Example**:
+     - `<input value="flipkart.com">` → `input[value^="flipkart"]`
+
+### 6. **CSS Selector using ends-with()**:
+   - **Syntax**: `tagname[attribute$="value"]`
+   - **Example**: 
+     - `<input value="flipkart.com">` → `input[value$="com"]`
