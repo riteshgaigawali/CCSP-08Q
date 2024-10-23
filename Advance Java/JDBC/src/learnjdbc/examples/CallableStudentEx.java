@@ -1,3 +1,10 @@
+/*
+ 	#Callable Statements :-
+ 		
+ 		- Callable statements are JDBC objects used to execute stored procedures in a database.
+ 		- They provide a convenient and efficient way to interact with database procedures, which can encapsulate complex logic and improve performance.
+ 
+*/
 package learnjdbc.examples;
 
 import java.sql.CallableStatement;

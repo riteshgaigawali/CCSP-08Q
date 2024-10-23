@@ -1,2 +1,21 @@
-5) Decendent :
-	- 
+# XPath Axes (continued)
+
+5. **Descendant Axis**:
+   - The descendant axis is used to locate any descendant of the context node.
+   - **Syntax**: `//tagname[@attribute="value"]/descendant::tagname`
+   - **Example**: 
+     - `//div[@id="fixer"]/descendant::span[3]`
+
+6. **Ancestor Axis**:
+   - The ancestor axis allows you to locate any ancestor of the context node.
+   - This axis can be used to find all ancestors of a context node from the beginning of the `<html>` tag.
+   - **Syntax**: `//tagname[@attribute="value"]/ancestor::tagname`
+   - **Example**:
+     - `//span[text()="Bus Ticket"]/ancestor::ul`
+
+7. **Preceding Axis**:
+   - The preceding axis locates all elements that appear before the context node, excluding its ancestors.
+   - This axis searches in an upward direction.
+   - **Syntax**: `//tagname[@attribute="value"]/preceding::tagname`
+   - **Example**:
+     - `//div[@id="fixer"]/preceding::link[1]`
