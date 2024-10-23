@@ -19,8 +19,8 @@ public class InstaLoginTest {
 
         // 3. find elements and send data to the elements
 
-        driver.findElement(By.name("username")).sendKeys("riteshgaigawali2001@gmail.com");
-        driver.findElement(By.name("password")).sendKeys("Ritesh@9901");
+        driver.findElement(By.name("username")).sendKeys("your_username");
+        driver.findElement(By.name("password")).sendKeys("your_password");
         driver.findElement(By.xpath("//div[text()='Log in']/parent::button")).click();
     }
 
