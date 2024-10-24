@@ -1,23 +1,26 @@
 /*
-   # Syntax to launch browser :
+# Syntax to launch browser :
         - WebDriver driver = new ChromeDriver();
-   # Navigate to given url :
+
+#WebDriver(I) Methods :-
+
+   1) Navigate to given url :
         - driver.get("url");
-   # void close() :
+   2) void close() :
         - The close() method of WebDriver interface is used for closing the currently focused window or tab.
-   # void quite() :
+   3) void quite() :
         - This method is used for closing all browser instances which are opened by driver variable.
-   # String getTitle() :
+   4) String getTitle() :
         - The getTitle() method of WebDriver interface returns a String containing the title of the web-page.
-   # String getCurrentUrl() :
+   5) String getCurrentUrl() :
         - This method of WebDriver interface returns the current page url in the String format.
 */
-package com.actitime_automation;
+package com.actitime_automation.examples;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class ChromeLaucher {
+public class ChromeLaucherEx01 {
 
     public static void main(String[] args) {
 

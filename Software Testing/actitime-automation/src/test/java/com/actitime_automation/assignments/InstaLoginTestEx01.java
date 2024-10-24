@@ -1,10 +1,13 @@
-package com.actitime_automation;
+/*
+    Assignment question on login automation for instagram login page.
+*/
+package com.actitime_automation.assignments;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class InstaLoginTest {
+public class InstaLoginTestEx01 {
 
     public static void main(String[] args) throws InterruptedException {
         String url = "https://www.instagram.com/accounts/login/";
@@ -22,6 +25,7 @@ public class InstaLoginTest {
         driver.findElement(By.name("username")).sendKeys("your_username");
         driver.findElement(By.name("password")).sendKeys("your_password");
         driver.findElement(By.xpath("//div[text()='Log in']/parent::button")).click();
+        
     }
 
 
