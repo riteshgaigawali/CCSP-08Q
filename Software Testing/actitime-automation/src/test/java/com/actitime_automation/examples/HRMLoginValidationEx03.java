@@ -1,4 +1,23 @@
+/*
+    # WebElement(I) Methods(continued) :
 
+           3) clear() :
+                - This method is used for clearing the text on provided web-element.
+                - The web-element should be a text-area or a text-box from where this method can clear existing text.
+
+           4) getText() :
+                - This method is used for fetching the text from a web-element.
+                - The return type of getText() method is String.
+
+           5) isDisplayed() :
+                - This method is mainly used for checking the web-element is displayed on the screen or not.
+                - This method returns a boolean value.
+                - If the element is not displayed on the screen it returns false else it returns true.
+
+           6) isEnabled() :
+                - This method is used to check if the element is enabled or not.
+                - It returns a boolean value either true if an element is enabled or false if it is disabled.
+*/
 package com.actitime_automation.examples;
 
 import org.openqa.selenium.By;
