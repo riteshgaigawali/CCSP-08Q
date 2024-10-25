@@ -1,14 +1,14 @@
 # XPath Axes
 
-2. **Child Axis**:
-   - In the child XPath axis, we first locate the parent node, then jump to its child node using the syntax.
+2. **Child Axes**:
+   - In the child XPath axes, we first locate the parent node, then jump to its child node using the syntax.
    - **Syntax**: `//tagname[@attribute="value"]/child::tagname`
    - **Examples**:
      - `//div[@name="src"]/child::label`
      - Alternatively, we can locate the child node with parent reference: `//div[@name="src"]/label`
 
-3. **Following Axis**:
-   - In the following XPath axis, the context node is ignored, and all nodes after the context node are considered until the end of the HTML document.
+3. **Following Axes**:
+   - In the following XPath axes, the context node is ignored, and all nodes after the context node are considered until the end of the HTML document.
    - Any children of the context node are also ignored.
    - **Syntax**: `//tagname[@attribute="value"]/following::tagname`
    - **Examples**:
@@ -32,8 +32,8 @@
      </html>
      ```
 
-4. **Following-Sibling Axis**:
-   - In the following-sibling axis, the context node is ignored, and all following siblings of the context node are considered.
+4. **Following-Sibling Axes**:
+   - In the following-sibling axes, the context node is ignored, and all following siblings of the context node are considered.
    - **Syntax**: `//tagname[@attribute="value"]/following-sibling::tagname`
    - **Examples**:
      ```html
