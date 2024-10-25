@@ -37,6 +37,7 @@ public class HRMLoginValidationEx03 {
 
         // 1. get login button element from web-page
         WebElement button = driver.findElement(By.xpath("//button[text()=' Login ']"));
+        System.out.println(button);
 
         // 2. check if the button is displayed or not
         if(button.isDisplayed()){
