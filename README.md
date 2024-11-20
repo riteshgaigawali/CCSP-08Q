@@ -20,5 +20,6 @@ Welcome to my GitHub repository! This repository contains daily example codes an
 ## Contributors
 
 - **Ritesh Gaygawali** - Author
+- gaygawaliritesh@gmail.com
 
 ---
